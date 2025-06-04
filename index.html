@@ -4,129 +4,96 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>D.technology | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <title>HealthyCare | Medical Info</title>
   <style>
     body {
-      font-family: 'Poppins', sans-serif;
-      background: #f0f4f8;
-      margin: 0;
-      padding: 0;
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f5f5f5;
     }
-    header {
-      background: #003366;
+    .navbar {
+      background-color: #0066cc;
       color: white;
-      padding: 40px 20px;
-      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 30px;
+      align-items: center;
     }
-    header img {
-      width: 100px;
-      border-radius: 50%;
-      margin-bottom: 10px;
-    }
-    .content {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    .project {
-      background: white;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-left: 5px solid #0066cc;
-      border-radius: 6px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .project h3 {
-      color: #004080;
-    }
-    .project a {
-      color: #0066cc;
+    .navbar a {
+      color: white;
+      margin-left: 20px;
       text-decoration: none;
       font-weight: bold;
     }
-    .skills {
-      background: white;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 6px;box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    .hero {
+      background-color: #e0f2ff;
+      padding: 80px 20px;
+      text-align: center;
     }
-    footer {
+    .hero h1 {
+      font-size: 36px;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-top: 0;
+    }
+    .section {
+      padding: 60px 20px;
+      background: white;
+      text-align: center;
+      max-width: 900px;
+      margin: 40px auto;
+      border-radius: 6px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    .section h2 {
+      color: #0066cc;margin-bottom: 20px;
+    }
+    .footer {
+      background-color: #003366;
+      color: white;
       text-align: center;
       padding: 20px;
-      background: #eee;
       font-size: 14px;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <!-- أرفع صورتك وسميها profile.jpg وخليها جنب ملف index -->
-  <img src="profile.jpg" alt="Profile" />
-  <h1>D.technology</h1>
-  <p>Front-End Developer | Medical Content Creator</p>
-</header>
-
-<div class="content">
-
-  <div class="skills">
-    <h3>Skills</h3>
-    <p>HTML, CSS, JavaScript, GitHub, SEO Writing, Responsive Design</p>
-  </div>
-
-  <div class="project">
-    <h3>Medical Website</h3>
-    <p>HTML/CSS website with health articles.</p>
-    <a href="https://medicalguiden.github.io/contact-form/">View Project</a>
-  </div>
-
-  <div class="project">
-    <h3>Cholera Article Page</h3>
-    <p>SEO-optimized article page with image and layout.</p>
-    <a href="https://medicalguiden.github.io/contact-form/cholera.html">View Article</a>
-  </div>
-
-  <div class="project">
-    <h3>Contact Form Integration</h3>
-    <p>Working form using FormSubmit for email messaging.</p>
-    <a href="https://medicalguiden.github.io/contact-form/#contact">Try It</a>
-  </div>
-
-</div>
-
-<footer>
-  &copy; 2025 D.technology. All rights reserved.
-</footer>
-<section id="projects" style="padding: 40px; background: #f0f0f0;">
-  <h2 style="text-align:center; color:#333;">My Projects</h2>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-    <div style="width: 300px; background: white; padding: 20px; border-radius: 6px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
-      <h3>Medical Guide Website</h3>
-      <p>A simple medical info site using HTML, CSS, and GitHub Pages.</p>
-      <a href="https://medicalguiden.github.io/contact-form/" target="_blank">View Project</a>
-    </div>
-    <!-- Add more project blocks here -->
-  </div>
-</section>
-  <section id="skills" style="padding: 40px; background: #fff;">
-  <h2 style="text-align:center; color:#0066cc;">My Skills</h2>
-  <ul style="list-style: none; padding: 0; text-align:center; font-size: 18px;">
-    <li>✅ HTML & CSS</li>
-    <li>✅ JavaScript Basics</li>
-    <li>✅ Responsive Design</li>
-    <li>✅ Git & GitHub</li>
-    <li>✅ SEO Basics</li>
-  </ul>
-  </section>
   <nav class="navbar">
-  <div><strong>HealthyCare</strong></div>
-  <div>
-    <a href="index.html">Home</a>
-    <a href="blog.html">Blog</a> <!-- هنا -->
-    <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
-  </div>
+    <div><strong>HealthyCare</strong></div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
   </nav>
+
+  <section class="hero">
+    <h1>Your Trusted Source for Medical Knowledge</h1>
+    <p>Get reliable, up-to-date health information at your fingertips.</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <p>Health Articles, Medical Q&A, Wellness Tips, First Aid Guides.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form action="https://formsubmit.co/hmd26040@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required style="width:90%; max-width:400px; padding:10px; margin:5px 0; border:1px solid #ccc; border-radius:4px;"><br><br>
+      <input type="email" name="email" placeholder="Your Email" required style="width:90%; max-width:400px; padding:10px; margin:5px 0; border:1px solid #ccc; border-radius:4px;"><br><br><textarea name="message" placeholder="Your Message" rows="5" required style="width:90%; max-width:400px; padding:10px; margin:5px 0; border:1px solid #ccc; border-radius:4px;"></textarea><br><br>
+      <button type="submit" style="padding:10px 20px; background-color:#0066cc; color:white; border:none; border-radius:4px; cursor:pointer;">Send</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 HealthyCare. All rights reserved.
+  </footer>
+
 </body>
 </html>
